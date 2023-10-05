@@ -482,6 +482,173 @@ section{
 
 /* EMPRESA */
 
+
+/* SERVIÇOS */
+
+.main_servicos{
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 2px solid #edb700;
+    margin-top: 100px;
+}
+
+.servicos_paragrafos{
+    width: 60%;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.servicos_paragrafos h1{
+    color: #111c24;
+    margin-bottom: 20px;
+}
+
+.servicos_paragrafos h2{
+    color: #111c24;
+    margin-bottom: 20px;
+}
+
+.servicos_paragrafos p{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.servicos_image{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.main_text_servicos{
+    display: inline-flex;
+    width: 100%;
+}
+
+.text_ser{
+    width: 60%;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.text_ser h2{
+    color: #111c24;
+    margin-bottom: 20px;
+}
+
+.text_ser p{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text_ser a{
+    text-decoration: none;
+    color: #111c24;
+    font-size: 18px;
+}
+
+.text_ser a:hover{
+    color: #edb700;
+
+}
+
+
+
+/* SERVIÇOS */
+
+/* ESTRUTURA */
+
+.main_estrutura{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.estrutura{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.estrutura_image{
+    width: 500px;
+    padding: 50px;
+}
+
+.text_est{
+    padding: 50px;
+    margin-left: 300px;
+    width: 700px;
+}
+
+.text_est h1{
+    color: #111c24;
+    margin-bottom: 20px;
+}
+
+.text_est p{
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+.text_est ul li span{
+    color: #111c24;
+    font-size: 18px;
+}
+
+.text_est ul li{
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.mid_estrutura{
+    width: 100%;
+    border-top: 2px solid #edb700;
+}
+
+.estrutura_fleet{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.mid_image img{
+    padding: 50px;
+    padding-right: -50px;
+    margin-left: 200px;
+
+}
+
+.text_mid_est{
+    width: 50%;
+    padding: 50px;
+    padding-left: -50px;
+}
+
+.estruturamid_text{
+    width: 650px;
+    margin-left: 20px;
+}
+
+.estruturamid_text h2{
+    color: #111c24;
+    margin-bottom: 20px;
+}
+
+.estruturamid_text p{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.mid_column li{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+/* ESTRUTURA */
+
+
 /* MEDIA */
 
 @media (max-width:1030px){
@@ -575,9 +742,12 @@ section{
 
     .main_list_empresa{
         display: block;
+        padding: 0;
     }
     .missao_empresa{
         width: 100%;
+        padding: 0;
+        padding-bottom: 15px;
     }
     .visao_empresa{
         width: 100%;
@@ -585,6 +755,68 @@ section{
     .valores_empresa{
         width: 100%;
     }
+
+    .main_servicos{
+        display: block;
+        width: 100%;
+    }
+
+    .servicos_paragrafos{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .servicos_paragrafos h1{
+        font-size: 50px;
+    }
+
+    .servicos_paragrafos h2{
+        font-size: 40px;
+    }
+
+    .servicos_paragrafos p{
+        font-size: 27px;
+        width: 100%;
+    }
+
+    .servicos_image img{
+        width: 100%;
+        
+    }
+
+    .main_text_servicos{
+        display: block;
+        width: 100%;
+    }
+
+    .text_ser{
+        display: block;
+        width: 100%;
+    }
+
+    .text_ser{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .text_ser h2{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .text_ser p{
+        font-size: 27px;
+        width: 100%;
+    }
+
+    .servicos_image img{
+        width: 100%;
+        
+    }
+
+   
 }
 
 
