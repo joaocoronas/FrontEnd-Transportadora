@@ -34,60 +34,35 @@
         </nav>
     </header>
 
-    <main class="main_estrutura">
-        <div class="estrutura">
-            <div class="estrutura_image">
-                <img src="img/img-estrutura.jpg" alt="estrutura">
-            </div>
-            <div class="text_est">
-                <h1>ESTRUTURA</h1>
-                <p>Temos o compromisso de propiciar o melhor 
-                    custo-benefício aos nossos clientes e para 
-                    isso buscamos otimizar nossos serviços.
-                </p>
-                <ul>
-                    <li><span>Sistema de Gestão –</span> permite um acompanhamento constante dos serviços.</li>
-                    <li><span>Sistema de Gerenciamento de Risco –</span> realizado através da consulta e liberação de motoristas, antes do carregamento da carga.</li>
-                    <li><span>Seguro de Carga –</span> possuímos seguro AIG para a carga no valor de R$1.200.000,00.</li>
-                    <li><span>Armazenagem de carga –</span>  de acordo com a necessidade do cliente.</li>
-                    <li><span>CTE Eletrônico –</span> Conhecimento de Transporte Eletrônico.</li>
-                    <li><span>NFS de Serviço –</span> Nota Fiscal de Serviços.</li>
-    
-                </ul>
-            </div>
-        </div>
-    </main>    
-    
-    <div class="fleet">
-      <div class="larg_fleet">
-        <div class="image-fleet">
-          <img src="img/caminhao.png" alt="caminhao">
-        </div>
-        <div class="fleet-text">
-          <h2>
-            Nossa Frota
-          </h2>
-          <p>
-            O transporte de cargas em geral é realizado através da nossa frota própria e agregados contando com profissionais experientes e qualificados. 
-            Toda frota é monitorada eletronicamente. 
-            Entre os veículos disponíveis, contamos com:
-          </p>
-          <div class="list_column">
-            <ul>
-              <li>TRUCK ABERTO;</li>
-              <li>TOCO;</li>
-              <li>GRANELEIRA;</li>
-              <li>SIDERS;</li>
+    <div class="main-help-contato">
+        <section>
+            <h2>Contato</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off">
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obgcontato.html">
+                <input type="hidden" name="accessKey" value="b0eb5487-dfd7-4f39-a7e3-20fca0efa207">
+            </form>    
+        </section>
+        <div class="text_help_contato">
+            <h3>Matriz</h3>
+            <ul class="ul_help">
+              <li><i class='bx bx-chevrons-right'></i> Avenida Das Industrias,1600 | Conj. 125</li>
+              <li><i class='bx bx-chevrons-right'></i> Bairro Distrito Indústrial | Cachoerinha | RS</li>
+              <li><i class='bx bx-chevrons-right'></i> CEP: 94930-230</li>
+              <li><i class='bx bx-chevrons-right'></i> +55 (51) 3469.0004 | 3469.0005</li>
+              <li><i class='bx bx-chevrons-right'></i> Email Contato:
+                <a href="index.html">inova@inovatransportes.com</a></span></li>
+              <li><i class='bx bx-chevrons-right'></i> Email Cotação:
+                <a href="index.html">comercial@inovatransportes.com</a></li>
+              
             </ul>
-            <ul>
-              <li>TRUCK BAÚ;</li>
-              <li>CARRETA ABERTA;</li>
-              <li>CARRETA BAÚ;</li>
-              <li>ENTRE OUTROS...</li>
-            </ul>
-          </div>
         </div>
-      </div>  
     </div>
 
     <section class="footer">
@@ -151,5 +126,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
-
