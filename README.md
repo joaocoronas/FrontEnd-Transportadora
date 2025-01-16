@@ -1,7 +1,7 @@
 # Inova Transportes - README
 
 ## Sobre o Projeto
-Este projeto representa a página inicial de um site para a empresa fictícia "Inova Transportes". O objetivo do site é apresentar os serviços oferecidos, diferenciais, estrutura e área de atuação da empresa, além de disponibilizar informações de contato e opções para solicitação de cotação de frete.
+Este projeto representa a página inicial de um site para a empresa Inova Transportes. O objetivo do site é apresentar os serviços oferecidos, diferenciais, estrutura e área de atuação da empresa, além de disponibilizar informações de contato e opções para solicitação de cotação de frete.
 
 ## Estrutura do Projeto
 
